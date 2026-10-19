@@ -1,7 +1,6 @@
 from .base import Chromosome
 import random
 
-
 class FloatChromosome(Chromosome):
     @classmethod
     def random(cls, length: int, low: float = 0.0, high: float = 1.0):
