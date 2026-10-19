@@ -18,5 +18,8 @@ class Chromosome(ABC):
         c.fitness, c.feasible = self.fitness, self.feasible
         return c
 
+    def get_fitness(self):
+        return self.fitness
+
     def __len__(self):
         return len(self.genes)
